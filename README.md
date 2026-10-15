@@ -1,4 +1,4 @@
-# VoltLab — Battery Module Digital Twin (Hackathon MVP)
+# VoltLab : Battery Module Digital Twin (Hackathon MVP)
 
 A runnable full-stack educational battery-module design platform. Dark React dashboard + Node/Express API + Python/FastAPI numerical model.
 
@@ -8,7 +8,7 @@ A runnable full-stack educational battery-module design platform. Dark React das
 
 ## Start (three terminals)
 
-**Terminal 1 — simulator**
+**Terminal 1 : simulator**
 ```bash
 cd simulator
 python -m venv .venv
@@ -18,14 +18,14 @@ pip install -r requirements.txt
 uvicorn app:app --reload --port 8000
 ```
 
-**Terminal 2 — API**
+**Terminal 2 : API**
 ```bash
 cd backend
 npm install
 npm run dev
 ```
 
-**Terminal 3 — frontend**
+**Terminal 3 : frontend**
 ```bash
 cd frontend
 npm install
